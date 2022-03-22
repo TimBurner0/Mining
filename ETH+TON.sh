@@ -1,4 +1,3 @@
-#! /bin/bash
 sudo apt update
 clear
 sudo apt install screen
